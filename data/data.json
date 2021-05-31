@@ -1,0 +1,322 @@
+{
+    "Ingles": {
+        "inscriptos": 8975,
+        "profesores": [
+            {"nombre": "Abbie P.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 10.8, "idiomas": ["Español", "Ruso"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Cooper L.", "calificacion": 4.9, "foto": "./assets/img/men/ameer-basheer-_FRKHdiPXYs-unsplash.jpg", "precioHora": 23.9, "idiomas": ["Portugues", "Italiano"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ferdinand F.", "calificacion": 4.2, "foto": "./assets/img/men/andre-bueno-zvPLB99INrQ-unsplash.jpg", "precioHora": 15.7, "idiomas": ["Japones", "Español"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sophie A.", "calificacion": 4.8, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Finlandes", "Frances"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Janet U.", "calificacion": 4.3, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 23.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Jordan Z.", "calificacion": 4.7, "foto": "./assets/img/men/aryo-lahap-p474SYYFO2c-unsplash.jpg", "precioHora": 11.6, "idiomas": ["Chino", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Harry M.", "calificacion": 4.4, "foto": "./assets/img/men/christian-buehner-JQFHdpOKz2k-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Alice K.", "calificacion": 4.6, "foto": "./assets/img/women/hannah-busing-ff5K3-kYPHA-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Chino", "Bulgaro"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.5, "foto": "./assets/img/men/david-von-diemar-T5xJF635Dc4-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica D.", "calificacion": 4.5, "foto": "./assets/img/women/jessica-felicio-_cvwXhGqG-o-unsplash.jpg", "precioHora": 16.6, "idiomas": ["Turco", "Frances"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1795
+    },
+    "Español": {
+        "inscriptos": 8025,
+        "profesores": [
+            {"nombre": "Anahi J.", "calificacion": 3.9, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 24.8, "idiomas": ["Tailandes", "Bulgaro"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter X.", "calificacion": 4.4, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 23.9, "idiomas": ["Hungaro", "Griego"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio M.", "calificacion": 4.9, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 21.7, "idiomas": ["Checo", "Hebreo"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sofia T.", "calificacion": 4.7, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Holandes", "Ucraniano"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Romina K.", "calificacion": 4.3, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Aleman", "Catalan"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Guillermo I.", "calificacion": 4.2, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Italiano", "Guarani"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Valeria D.", "calificacion": 4.1, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 18.5, "idiomas": ["Coreano", "Sueco"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabrina G.", "calificacion": 4.1, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 24.6, "idiomas": ["Finlandes", "Polaco"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma A.", "calificacion": 4.8, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Turco", "Arabe"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo S.", "calificacion": 4.5, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 23.6, "idiomas": ["Japones", "Chino"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1605
+    },
+    "Italiano": {
+        "inscriptos": 7615,
+        "profesores": [
+            {"nombre": "Pia R.", "calificacion": 4.9, "foto": "./assets/img/women/raquel-santana-C4xukJdGXpI-unsplash.jpg", "precioHora": 20.8, "idiomas": ["Frances", "Ruso"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Carlo P.", "calificacion": 4.9, "foto": "./assets/img/men/tommaso-zandri-ALLphvEwX1c-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Portugues", "Español"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Dante O.", "calificacion": 4.2, "foto": "./assets/img/men/ameer-basheer-_FRKHdiPXYs-unsplash.jpg", "precioHora": 20.7, "idiomas": ["Ingles", "Español"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Giovanni Q.", "calificacion": 4.8, "foto": "./assets/img/men/andre-bueno-zvPLB99INrQ-unsplash.jpg", "precioHora": 20.3, "idiomas": ["Portugues", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Flavio Y.", "calificacion": 4.4, "foto": "./assets/img/men/aryo-lahap-p474SYYFO2c-unsplash.jpg", "precioHora": 19.1, "idiomas": ["Frances", "Chino"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Fiorella N.", "calificacion": 4.4, "foto": "./assets/img/women/nikhil-uttam-Rm3DPIWZj0E-unsplash.jpg", "precioHora": 21.6, "idiomas": ["Japones", "Arabe"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Carmina A.", "calificacion": 4.2, "foto": "./assets/img/women/michael-afonso-3lbxyaAoXbU-unsplash.jpg", "precioHora": 21.5, "idiomas": ["Turco", "Polaco"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Stella M.", "calificacion": 4.1, "foto": "./assets/img/women/mariano-nocetti-ASuIYgjnBFw-unsplash.jpg", "precioHora": 22.6, "idiomas": ["Finlandes", "Sueco"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Romeo J.", "calificacion": 3.9, "foto": "./assets/img/men/christian-buehner-JQFHdpOKz2k-unsplash.jpg", "precioHora": 21.1, "idiomas": ["Coreano", "Frances"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Lula D.", "calificacion": 3.9, "foto": "./assets/img/women/keren-fedida-K_5trwgK-a0-unsplash.jpg", "precioHora": 24.6, "idiomas": ["Guarani", "Catalan"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1523
+    },
+    "Japones": {
+        "inscriptos": 2255,
+        "profesores": [
+            {"nombre": "Aneko T.", "calificacion": 3.9, "foto": "./assets/img/women/jp-kxkl-JHyAiRMi5Fk-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Aleman", "Ucraniano"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Chihiro K.", "calificacion": 4.7, "foto": "./assets/img/men/david-von-diemar-T5xJF635Dc4-unsplash.jpg", "precioHora": 15.9, "idiomas": ["Holandes", "Italiano"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Dai H.", "calificacion": 4.6, "foto": "./assets/img/women/jonathan-cosens-photography-v-YiCIbDjOQ-unsplash.jpg", "precioHora": 17.7, "idiomas": ["Hebreo", "Griego"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Jin J.", "calificacion": 4.3, "foto": "./assets/img/men/imansyah-muhamad-putera-n4KewLKFOZw-unsplash.jpg", "precioHora": 19.3, "idiomas": ["Checo", "Hungaro"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Gen Y.", "calificacion": 4.2, "foto": "./assets/img/women/joanna-nix-walkup-h2pnXHMz8YM-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Bulgaro", "Ingles"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Hoshi H.", "calificacion": 4.3, "foto": "./assets/img/women/jez-timms-sEY1ffAmBlo-unsplash.jpg", "precioHora": 16.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Kaori K.", "calificacion": 4.6, "foto": "./assets/img/women/jessica-felicio-_cvwXhGqG-o-unsplash.jpg", "precioHora": 13.5, "idiomas": ["Español", "Ruso"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Shimura N.", "calificacion": 4.7, "foto": "./assets/img/men/jonathan-cosens-photography-NAJ1lPkb21Y-unsplash.jpg", "precioHora": 14.6, "idiomas": ["Chino", "Arabe"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Tsushima J.", "calificacion": 4.7, "foto": "./assets/img/women/hannah-busing-ff5K3-kYPHA-unsplash.jpg", "precioHora": 17.1, "idiomas": ["Polaco", "Sueco"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Tokyjin D.", "calificacion": 4.4, "foto": "./assets/img/men/julian-wan-WNoLnJo7tS8-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Italiano", "Aleman"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 451
+    },
+    "Portugues": {
+        "inscriptos": 7915,
+        "profesores": [
+            {"nombre": "Manuela N.", "calificacion": 4.2, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 18.8, "idiomas": ["Holandes", "Checo"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabina T.", "calificacion": 4.9, "foto": "./assets/img/men/milad-shams-KvCOWzhcGCc-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Tailandes", "Ingles"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Timoteo U.", "calificacion": 4.8, "foto": "./assets/img/men/md-duran-6R00V1LgbpI-unsplash.jpg", "precioHora": 19.7, "idiomas": ["Bulgaro", "Español"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Estela F.", "calificacion": 4.9, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Frances", "Hungaro"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.4, "foto": "./assets/img/men/midas-hofstra-tidSLv-UaNs-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica W.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Griego", "Ruso"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma U.", "calificacion": 4.2, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Checo", "Frances"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo D.", "calificacion": 4.3, "foto": "./assets/img/men/mohamed-nohassi-xFTQPsh_ZKg-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Chino", "Hebreo"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter F.", "calificacion": 4.1, "foto": "./assets/img/men/mohammed-idris-djoudi-7xSIYJv0Tvk-unsplash.jpg", "precioHora": 16.1, "idiomas": ["Japones", "Holandes"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio J.", "calificacion": 3.9, "foto": "./assets/img/men/nils-lindner-wFKG4bSOQGg-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Ucraniano", "Arabe"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1583
+    },
+    "Frances": {
+        "inscriptos": 2055,
+        "profesores": [
+            {"nombre": "Adrienne N.", "calificacion": 4.4, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Turco", "Aleman"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Adam T.", "calificacion": 4.2, "foto": "./assets/img/men/patrick-daley-Aj4DeR0H6RQ-unsplash.jpg", "precioHora": 11.9, "idiomas": ["Catalan", "Polaco"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Bernard U.", "calificacion": 4.9, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 14.7, "idiomas": ["Finlandes", "Guarani"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Agathe F.", "calificacion": 4.9, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 21.3, "idiomas": ["Sueco", "Coreano"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.8, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Chino", "Aleman"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Aimee W.", "calificacion": 4.7, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Celine U.", "calificacion": 4.8, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 19.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Olegario D.", "calificacion": 4.5, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Japones", "Coreano"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Claude X.", "calificacion": 4.6, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Betty Z.", "calificacion": 4.5, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Turco", "Español"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 411
+    },
+    "Ruso": {
+        "inscriptos": 8975,
+        "profesores": [
+            {"nombre": "Abbie P.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 10.8, "idiomas": ["Español", "Ruso"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Cooper L.", "calificacion": 4.9, "foto": "./assets/img/men/ameer-basheer-_FRKHdiPXYs-unsplash.jpg", "precioHora": 23.9, "idiomas": ["Portugues", "Italiano"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ferdinand F.", "calificacion": 4.2, "foto": "./assets/img/men/andre-bueno-zvPLB99INrQ-unsplash.jpg", "precioHora": 15.7, "idiomas": ["Japones", "Español"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sophie A.", "calificacion": 4.8, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Finlandes", "Frances"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Janet U.", "calificacion": 4.3, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 23.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Jordan Z.", "calificacion": 4.7, "foto": "./assets/img/men/aryo-lahap-p474SYYFO2c-unsplash.jpg", "precioHora": 11.6, "idiomas": ["Chino", "Ruso"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Harry M.", "calificacion": 4.4, "foto": "./assets/img/men/christian-buehner-JQFHdpOKz2k-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Alice K.", "calificacion": 4.6, "foto": "./assets/img/women/hannah-busing-ff5K3-kYPHA-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Chino", "Bulgaro"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.5, "foto": "./assets/img/men/david-von-diemar-T5xJF635Dc4-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica D.", "calificacion": 4.5, "foto": "./assets/img/women/jessica-felicio-_cvwXhGqG-o-unsplash.jpg", "precioHora": 16.6, "idiomas": ["Turco", "Frances"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1795
+    },
+    "Arabe": {
+        "inscriptos": 8025,
+        "profesores": [
+            {"nombre": "Anahi J.", "calificacion": 3.9, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 24.8, "idiomas": ["Tailandes", "Bulgaro"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter X.", "calificacion": 4.4, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 23.9, "idiomas": ["Hungaro", "Griego"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio M.", "calificacion": 4.9, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 21.7, "idiomas": ["Checo", "Hebreo"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sofia T.", "calificacion": 4.7, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Holandes", "Ucraniano"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Romina K.", "calificacion": 4.3, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Aleman", "Catalan"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Guillermo I.", "calificacion": 4.2, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Italiano", "Guarani"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Valeria D.", "calificacion": 4.1, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 18.5, "idiomas": ["Coreano", "Sueco"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabrina G.", "calificacion": 4.1, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 24.6, "idiomas": ["Finlandes", "Polaco"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma A.", "calificacion": 4.8, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Turco", "Arabe"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo S.", "calificacion": 4.5, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 23.6, "idiomas": ["Japones", "Chino"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1605
+    },
+    "Turco": {
+        "inscriptos": 7615,
+        "profesores": [
+            {"nombre": "Pia R.", "calificacion": 4.9, "foto": "./assets/img/women/raquel-santana-C4xukJdGXpI-unsplash.jpg", "precioHora": 20.8, "idiomas": ["Frances", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Carlo P.", "calificacion": 4.9, "foto": "./assets/img/men/tommaso-zandri-ALLphvEwX1c-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Portugues", "Español"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Dante O.", "calificacion": 4.2, "foto": "./assets/img/men/ameer-basheer-_FRKHdiPXYs-unsplash.jpg", "precioHora": 20.7, "idiomas": ["Ingles", "Español"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Giovanni Q.", "calificacion": 4.8, "foto": "./assets/img/men/andre-bueno-zvPLB99INrQ-unsplash.jpg", "precioHora": 20.3, "idiomas": ["Portugues", "Ruso"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Flavio Y.", "calificacion": 4.4, "foto": "./assets/img/men/aryo-lahap-p474SYYFO2c-unsplash.jpg", "precioHora": 19.1, "idiomas": ["Frances", "Chino"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Fiorella N.", "calificacion": 4.4, "foto": "./assets/img/women/nikhil-uttam-Rm3DPIWZj0E-unsplash.jpg", "precioHora": 21.6, "idiomas": ["Japones", "Arabe"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Carmina A.", "calificacion": 4.2, "foto": "./assets/img/women/michael-afonso-3lbxyaAoXbU-unsplash.jpg", "precioHora": 21.5, "idiomas": ["Turco", "Polaco"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Stella M.", "calificacion": 4.1, "foto": "./assets/img/women/mariano-nocetti-ASuIYgjnBFw-unsplash.jpg", "precioHora": 22.6, "idiomas": ["Finlandes", "Sueco"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Romeo J.", "calificacion": 3.9, "foto": "./assets/img/men/christian-buehner-JQFHdpOKz2k-unsplash.jpg", "precioHora": 21.1, "idiomas": ["Coreano", "Frances"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Lula D.", "calificacion": 3.9, "foto": "./assets/img/women/keren-fedida-K_5trwgK-a0-unsplash.jpg", "precioHora": 24.6, "idiomas": ["Guarani", "Catalan"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1523
+    },
+    "Coreano": {
+        "inscriptos": 2255,
+        "profesores": [
+            {"nombre": "Aneko T.", "calificacion": 3.9, "foto": "./assets/img/women/jp-kxkl-JHyAiRMi5Fk-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Aleman", "Ucraniano"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Chihiro K.", "calificacion": 4.7, "foto": "./assets/img/men/david-von-diemar-T5xJF635Dc4-unsplash.jpg", "precioHora": 15.9, "idiomas": ["Holandes", "Italiano"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Dai H.", "calificacion": 4.6, "foto": "./assets/img/women/jonathan-cosens-photography-v-YiCIbDjOQ-unsplash.jpg", "precioHora": 17.7, "idiomas": ["Hebreo", "Griego"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Jin J.", "calificacion": 4.3, "foto": "./assets/img/men/imansyah-muhamad-putera-n4KewLKFOZw-unsplash.jpg", "precioHora": 19.3, "idiomas": ["Checo", "Hungaro"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Gen Y.", "calificacion": 4.2, "foto": "./assets/img/women/joanna-nix-walkup-h2pnXHMz8YM-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Bulgaro", "Ingles"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Hoshi H.", "calificacion": 4.3, "foto": "./assets/img/women/jez-timms-sEY1ffAmBlo-unsplash.jpg", "precioHora": 16.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Kaori K.", "calificacion": 4.6, "foto": "./assets/img/women/jessica-felicio-_cvwXhGqG-o-unsplash.jpg", "precioHora": 13.5, "idiomas": ["Español", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Shimura N.", "calificacion": 4.7, "foto": "./assets/img/men/jonathan-cosens-photography-NAJ1lPkb21Y-unsplash.jpg", "precioHora": 14.6, "idiomas": ["Chino", "Arabe"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Tsushima J.", "calificacion": 4.7, "foto": "./assets/img/women/hannah-busing-ff5K3-kYPHA-unsplash.jpg", "precioHora": 17.1, "idiomas": ["Polaco", "Sueco"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Tokyjin D.", "calificacion": 4.4, "foto": "./assets/img/men/julian-wan-WNoLnJo7tS8-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Italiano", "Aleman"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 451
+    },
+    "Polaco": {
+        "inscriptos": 7915,
+        "profesores": [
+            {"nombre": "Manuela N.", "calificacion": 4.2, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 18.8, "idiomas": ["Holandes", "Checo"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabina T.", "calificacion": 4.9, "foto": "./assets/img/men/milad-shams-KvCOWzhcGCc-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Tailandes", "Ingles"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Timoteo U.", "calificacion": 4.8, "foto": "./assets/img/men/md-duran-6R00V1LgbpI-unsplash.jpg", "precioHora": 19.7, "idiomas": ["Bulgaro", "Español"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Estela F.", "calificacion": 4.9, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Frances", "Hungaro"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.4, "foto": "./assets/img/men/midas-hofstra-tidSLv-UaNs-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica W.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Griego", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma U.", "calificacion": 4.2, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Checo", "Frances"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo D.", "calificacion": 4.3, "foto": "./assets/img/men/mohamed-nohassi-xFTQPsh_ZKg-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Chino", "Hebreo"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter F.", "calificacion": 4.1, "foto": "./assets/img/men/mohammed-idris-djoudi-7xSIYJv0Tvk-unsplash.jpg", "precioHora": 16.1, "idiomas": ["Japones", "Holandes"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio J.", "calificacion": 3.9, "foto": "./assets/img/men/nils-lindner-wFKG4bSOQGg-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Ucraniano", "Arabe"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1583
+    },
+    "Finlandes": {
+        "inscriptos": 2055,
+        "profesores": [
+            {"nombre": "Adrienne N.", "calificacion": 4.4, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Turco", "Aleman"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Adam T.", "calificacion": 4.2, "foto": "./assets/img/men/patrick-daley-Aj4DeR0H6RQ-unsplash.jpg", "precioHora": 11.9, "idiomas": ["Catalan", "Polaco"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Bernard U.", "calificacion": 4.9, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 14.7, "idiomas": ["Finlandes", "Guarani"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Agathe F.", "calificacion": 4.9, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 21.3, "idiomas": ["Sueco", "Coreano"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.8, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Chino", "Aleman"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Aimee W.", "calificacion": 4.7, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Celine U.", "calificacion": 4.8, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 19.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Olegario D.", "calificacion": 4.5, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Japones", "Coreano"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Claude X.", "calificacion": 4.6, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Betty Z.", "calificacion": 4.5, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Turco", "Español"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 411
+    },
+    "Sueco": {
+        "inscriptos": 8975,
+        "profesores": [
+            {"nombre": "Abbie P.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 10.8, "idiomas": ["Español", "Ruso"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Cooper L.", "calificacion": 4.9, "foto": "./assets/img/men/ameer-basheer-_FRKHdiPXYs-unsplash.jpg", "precioHora": 23.9, "idiomas": ["Portugues", "Italiano"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ferdinand F.", "calificacion": 4.2, "foto": "./assets/img/men/andre-bueno-zvPLB99INrQ-unsplash.jpg", "precioHora": 15.7, "idiomas": ["Japones", "Español"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sophie A.", "calificacion": 4.8, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Finlandes", "Frances"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Janet U.", "calificacion": 4.3, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 23.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Jordan Z.", "calificacion": 4.7, "foto": "./assets/img/men/aryo-lahap-p474SYYFO2c-unsplash.jpg", "precioHora": 11.6, "idiomas": ["Chino", "Ruso"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Harry M.", "calificacion": 4.4, "foto": "./assets/img/men/christian-buehner-JQFHdpOKz2k-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Alice K.", "calificacion": 4.6, "foto": "./assets/img/women/hannah-busing-ff5K3-kYPHA-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Chino", "Bulgaro"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.5, "foto": "./assets/img/men/david-von-diemar-T5xJF635Dc4-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica D.", "calificacion": 4.5, "foto": "./assets/img/women/jessica-felicio-_cvwXhGqG-o-unsplash.jpg", "precioHora": 16.6, "idiomas": ["Turco", "Frances"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1795
+    },
+    "Guarani": {
+        "inscriptos": 8025,
+        "profesores": [
+            {"nombre": "Anahi J.", "calificacion": 3.9, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 24.8, "idiomas": ["Tailandes", "Bulgaro"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter X.", "calificacion": 4.4, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 23.9, "idiomas": ["Hungaro", "Griego"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio M.", "calificacion": 4.9, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 21.7, "idiomas": ["Checo", "Hebreo"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sofia T.", "calificacion": 4.7, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Holandes", "Ucraniano"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Romina K.", "calificacion": 4.3, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Aleman", "Catalan"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Guillermo I.", "calificacion": 4.2, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Italiano", "Guarani"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Valeria D.", "calificacion": 4.1, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 18.5, "idiomas": ["Coreano", "Sueco"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabrina G.", "calificacion": 4.1, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 24.6, "idiomas": ["Finlandes", "Polaco"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma A.", "calificacion": 4.8, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Turco", "Arabe"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo S.", "calificacion": 4.5, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 23.6, "idiomas": ["Japones", "Chino"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1605
+    },
+    "Catalan": {
+        "inscriptos": 7615,
+        "profesores": [
+            {"nombre": "Pia R.", "calificacion": 4.9, "foto": "./assets/img/women/raquel-santana-C4xukJdGXpI-unsplash.jpg", "precioHora": 20.8, "idiomas": ["Frances", "Ruso"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Carlo P.", "calificacion": 4.9, "foto": "./assets/img/men/tommaso-zandri-ALLphvEwX1c-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Portugues", "Español"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Dante O.", "calificacion": 4.2, "foto": "./assets/img/men/ameer-basheer-_FRKHdiPXYs-unsplash.jpg", "precioHora": 20.7, "idiomas": ["Ingles", "Español"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Giovanni Q.", "calificacion": 4.8, "foto": "./assets/img/men/andre-bueno-zvPLB99INrQ-unsplash.jpg", "precioHora": 20.3, "idiomas": ["Portugues", "Ruso"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Flavio Y.", "calificacion": 4.4, "foto": "./assets/img/men/aryo-lahap-p474SYYFO2c-unsplash.jpg", "precioHora": 19.1, "idiomas": ["Frances", "Chino"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Fiorella N.", "calificacion": 4.4, "foto": "./assets/img/women/nikhil-uttam-Rm3DPIWZj0E-unsplash.jpg", "precioHora": 21.6, "idiomas": ["Japones", "Arabe"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Carmina A.", "calificacion": 4.2, "foto": "./assets/img/women/michael-afonso-3lbxyaAoXbU-unsplash.jpg", "precioHora": 21.5, "idiomas": ["Turco", "Polaco"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Stella M.", "calificacion": 4.1, "foto": "./assets/img/women/mariano-nocetti-ASuIYgjnBFw-unsplash.jpg", "precioHora": 22.6, "idiomas": ["Finlandes", "Sueco"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Romeo J.", "calificacion": 3.9, "foto": "./assets/img/men/christian-buehner-JQFHdpOKz2k-unsplash.jpg", "precioHora": 21.1, "idiomas": ["Coreano", "Frances"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Lula D.", "calificacion": 3.9, "foto": "./assets/img/women/keren-fedida-K_5trwgK-a0-unsplash.jpg", "precioHora": 24.6, "idiomas": ["Guarani", "Catalan"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1523
+    },
+    "Chino": {
+        "inscriptos": 2255,
+        "profesores": [
+            {"nombre": "Aneko T.", "calificacion": 3.9, "foto": "./assets/img/women/jp-kxkl-JHyAiRMi5Fk-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Aleman", "Ucraniano"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Chihiro K.", "calificacion": 4.7, "foto": "./assets/img/men/david-von-diemar-T5xJF635Dc4-unsplash.jpg", "precioHora": 15.9, "idiomas": ["Holandes", "Italiano"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Dai H.", "calificacion": 4.6, "foto": "./assets/img/women/jonathan-cosens-photography-v-YiCIbDjOQ-unsplash.jpg", "precioHora": 17.7, "idiomas": ["Hebreo", "Griego"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Jin J.", "calificacion": 4.3, "foto": "./assets/img/men/imansyah-muhamad-putera-n4KewLKFOZw-unsplash.jpg", "precioHora": 19.3, "idiomas": ["Checo", "Hungaro"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Gen Y.", "calificacion": 4.2, "foto": "./assets/img/women/joanna-nix-walkup-h2pnXHMz8YM-unsplash.jpg", "precioHora": 18.1, "idiomas": ["Bulgaro", "Ingles"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Hoshi H.", "calificacion": 4.3, "foto": "./assets/img/women/jez-timms-sEY1ffAmBlo-unsplash.jpg", "precioHora": 16.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Kaori K.", "calificacion": 4.6, "foto": "./assets/img/women/jessica-felicio-_cvwXhGqG-o-unsplash.jpg", "precioHora": 13.5, "idiomas": ["Español", "Ruso"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Shimura N.", "calificacion": 4.7, "foto": "./assets/img/men/jonathan-cosens-photography-NAJ1lPkb21Y-unsplash.jpg", "precioHora": 14.6, "idiomas": ["Chino", "Arabe"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Tsushima J.", "calificacion": 4.7, "foto": "./assets/img/women/hannah-busing-ff5K3-kYPHA-unsplash.jpg", "precioHora": 17.1, "idiomas": ["Polaco", "Sueco"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Tokyjin D.", "calificacion": 4.4, "foto": "./assets/img/men/julian-wan-WNoLnJo7tS8-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Italiano", "Aleman"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 451
+    },
+    "Aleman": {
+        "inscriptos": 7915,
+        "profesores": [
+            {"nombre": "Manuela N.", "calificacion": 4.2, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 18.8, "idiomas": ["Holandes", "Checo"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabina T.", "calificacion": 4.9, "foto": "./assets/img/men/milad-shams-KvCOWzhcGCc-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Tailandes", "Ingles"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Timoteo U.", "calificacion": 4.8, "foto": "./assets/img/men/md-duran-6R00V1LgbpI-unsplash.jpg", "precioHora": 19.7, "idiomas": ["Bulgaro", "Español"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Estela F.", "calificacion": 4.9, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Frances", "Hungaro"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.4, "foto": "./assets/img/men/midas-hofstra-tidSLv-UaNs-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica W.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Griego", "Ruso"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma U.", "calificacion": 4.2, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Checo", "Frances"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo D.", "calificacion": 4.3, "foto": "./assets/img/men/mohamed-nohassi-xFTQPsh_ZKg-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Chino", "Hebreo"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter F.", "calificacion": 4.1, "foto": "./assets/img/men/mohammed-idris-djoudi-7xSIYJv0Tvk-unsplash.jpg", "precioHora": 16.1, "idiomas": ["Japones", "Holandes"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio J.", "calificacion": 3.9, "foto": "./assets/img/men/nils-lindner-wFKG4bSOQGg-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Ucraniano", "Arabe"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1583
+    },
+    "Holandes": {
+        "inscriptos": 2055,
+        "profesores": [
+            {"nombre": "Adrienne N.", "calificacion": 4.4, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Turco", "Aleman"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Adam T.", "calificacion": 4.2, "foto": "./assets/img/men/patrick-daley-Aj4DeR0H6RQ-unsplash.jpg", "precioHora": 11.9, "idiomas": ["Catalan", "Polaco"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Bernard U.", "calificacion": 4.9, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 14.7, "idiomas": ["Finlandes", "Guarani"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Agathe F.", "calificacion": 4.9, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 21.3, "idiomas": ["Sueco", "Coreano"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.8, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Chino", "Aleman"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Aimee W.", "calificacion": 4.7, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Celine U.", "calificacion": 4.8, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 19.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Olegario D.", "calificacion": 4.5, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Japones", "Coreano"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Claude X.", "calificacion": 4.6, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Betty Z.", "calificacion": 4.5, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Turco", "Español"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 411
+    },
+    "Griego": {
+        "inscriptos": 7915,
+        "profesores": [
+            {"nombre": "Manuela N.", "calificacion": 4.2, "foto": "./assets/img/women/elisabeth-wales-v2NBp8Xy2ow-unsplash.jpg", "precioHora": 18.8, "idiomas": ["Holandes", "Checo"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Sabina T.", "calificacion": 4.9, "foto": "./assets/img/men/milad-shams-KvCOWzhcGCc-unsplash.jpg", "precioHora": 21.9, "idiomas": ["Tailandes", "Ingles"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Timoteo U.", "calificacion": 4.8, "foto": "./assets/img/men/md-duran-6R00V1LgbpI-unsplash.jpg", "precioHora": 19.7, "idiomas": ["Bulgaro", "Español"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Estela F.", "calificacion": 4.9, "foto": "./assets/img/women/donna-buchanan-fOIRqPkPZHE-unsplash.jpg", "precioHora": 17.3, "idiomas": ["Frances", "Hungaro"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.4, "foto": "./assets/img/men/midas-hofstra-tidSLv-UaNs-unsplash.jpg", "precioHora": 24.1, "idiomas": ["Guarani", "Aleman"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Veronica W.", "calificacion": 4.1, "foto": "./assets/img/women/devn-53ouhY5koKY-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Griego", "Ruso"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Telma U.", "calificacion": 4.2, "foto": "./assets/img/women/simona-sergi-aCIS0ssDIAw-unsplash.jpg", "precioHora": 20.5, "idiomas": ["Checo", "Frances"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Camilo D.", "calificacion": 4.3, "foto": "./assets/img/men/mohamed-nohassi-xFTQPsh_ZKg-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Chino", "Hebreo"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Walter F.", "calificacion": 4.1, "foto": "./assets/img/men/mohammed-idris-djoudi-7xSIYJv0Tvk-unsplash.jpg", "precioHora": 16.1, "idiomas": ["Japones", "Holandes"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Ignacio J.", "calificacion": 3.9, "foto": "./assets/img/men/nils-lindner-wFKG4bSOQGg-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Ucraniano", "Arabe"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 1583
+    },
+    "Tailandes": {
+        "inscriptos": 2055,
+        "profesores": [
+            {"nombre": "Adrienne N.", "calificacion": 4.4, "foto": "./assets/img/women/sherise-vd-Zh24qdeh1mE-unsplash.jpg", "precioHora": 13.8, "idiomas": ["Turco", "Aleman"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Adam T.", "calificacion": 4.2, "foto": "./assets/img/men/patrick-daley-Aj4DeR0H6RQ-unsplash.jpg", "precioHora": 11.9, "idiomas": ["Catalan", "Polaco"], "dias": ["Lunes", "Miercoles", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Bernard U.", "calificacion": 4.9, "foto": "./assets/img/men/pavel-chuprunov-2t-ydzD385M-unsplash.jpg", "precioHora": 14.7, "idiomas": ["Finlandes", "Guarani"], "dias": ["Miercoles", "Jueves", "Viernes"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Agathe F.", "calificacion": 4.9, "foto": "./assets/img/women/seth-doyle-uJ8LNVCBjFQ-unsplash.jpg", "precioHora": 21.3, "idiomas": ["Sueco", "Coreano"], "dias": ["Martes", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Victor W.", "calificacion": 4.8, "foto": "./assets/img/men/rakibul-hasan-xuhGtK1zlZU-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Chino", "Aleman"], "dias": ["Lunes", "Martes", "Miercoles"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Aimee W.", "calificacion": 4.7, "foto": "./assets/img/women/seth-doyle-BZ2PNGD5Emw-unsplash.jpg", "precioHora": 17.6, "idiomas": ["Tailandes", "Ruso"], "dias": ["Lunes", "Martes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Celine U.", "calificacion": 4.8, "foto": "./assets/img/women/seth-doyle-B3VWevRn1oU-unsplash.jpg", "precioHora": 19.5, "idiomas": ["Arabe", "Hungaro"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Olegario D.", "calificacion": 4.5, "foto": "./assets/img/men/sazzad-aryan-rjm8go9rL8Y-unsplash.jpg", "precioHora": 15.6, "idiomas": ["Japones", "Coreano"], "dias": ["Miercoles", "Viernes", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Claude X.", "calificacion": 4.6, "foto": "./assets/img/men/sigmund-a19OVaa2rzA-unsplash.jpg", "precioHora": 20.1, "idiomas": ["Catalan", "Sueco"], "dias": ["Lunes", "Jueves", "Sabado"], "horario": ["Mañana", "Tarde", "Noche"]},
+            {"nombre": "Betty Z.", "calificacion": 4.5, "foto": "./assets/img/women/raychan-9UkAHVs5y7Y-unsplash.jpg", "precioHora": 19.6, "idiomas": ["Turco", "Español"], "dias": ["Martes", "Miercoles", "Jueves"], "horario": ["Mañana", "Tarde", "Noche"]}
+        ],
+        "cantidadProfesores": 411
+    }
+}

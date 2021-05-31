@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/07c198be6a.js" crossorigin="anonymous"></script>
+
+    <title>Same-Lang</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info" id="navbar">
+        <a class="navbar-brand" href="#">
+            <a href="index.html" class="text-decoration-none text-light d-flex align-items-center">
+                <i class="fas fa-american-sign-language-interpreting fa-2x"></i><strong class="align-center ml-2">Same-Lang</strong>
+            </a>
+        </a>
+
+        <!--Menu Hamburguesa-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <li class="nav-item active mr-lg-5">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#welcomeModal">
+                  Bienvenido, <span id="user-name" class="mr-2"></span><i id="hand" class="fas fa-hand-paper"></i>
+                  <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="text-decoration-none text-secondary dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span id="res-language" class=""></span>, <span id="res-money"></span>
+                </a>
+                
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <form class="px-3">
+                        <div class="form-group">
+                            <label for="select-language" class="mb-0">Idioma</label>
+                            <select name="" id="select-language" class="form-control form-control-sm">
+                                <option value="Seleccionar" selected>Seleccionar</option>
+                                <option value="Español">Español</option>
+                                <option value="Ingles">Ingles</option>
+                                <option value="Italiano">Italiano</option>
+                                <option value="Portugues">Portugues</option>
+                                <option value="Ruso">Ruso</option>
+                                <option value="Japones">Japones</option>
+                                <option value="Frances">Frances</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="select-money" class="mb-0">Moneda</label>
+                            <select name="" id="select-money" class="form-control form-control-sm">
+                                <option value="Seleccionar" selected>Seleccionar</option>
+                                <option value="AR$">AR$</option>
+                                <option value="UDS">UDS</option>
+                                <option value="EUR">EUR</option>
+                                <option value="LIB">LIB</option>
+                                <option value="YEN">YEN</option>
+                                <option value="Real">Real</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#busqueda-docentes" class="nav-link">Buscar profesores</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#alumnos-online" class="nav-link"><span id="estudiantes-online" class="badge badge-warning"></span> Alumnos en linea</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  
+    <!-- Modal Bienvenido Usuario -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="welcomeModalLabel">Contanos acerca de vos</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nombre" class="col-form-label-sm mb-0">Como te llamas?</label>
+                                <input type="text" id="nombre" class="form-control form-control-sm" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="apellido" class="col-form-label-sm mb-0">Y tu apellido?</label>
+                                <input type="text" id="apellido" class="form-control form-control-sm" placeholder="Tu apellido" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="edad" class="col-form-label-sm mb-0">Cual es tu edad?</label>
+                                <input type="number" id="edad" class="form-control form-control-sm" placeholder="Tu edad" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email" class="col-form-label-sm mb-0">Y tu email</label>
+                                <input type="email" id="email" class="form-control form-control-sm" placeholder="Tu email" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Todavia no</button>
+                    <button type="button" class="btn btn-primary btn-sm" onclick="cargarDatos()" data-dismiss="modal">Ese soy yo!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jumbotron-id">
+        <div class="jumbotron">
+            <h1 class="display-4 text-right">Welcome to Same-Lang!</h1>
+            <p class="text-right">Consectetur adipisicing elit. Voluptatem illo cum praesentium atque dolores odit?</p>
+            <p class="text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button type="button" class="btn btn-outline-light float-right mt-4" data-toggle="modal" data-target="#welcomeModal">Empecemos</button>
+        </div>
+    </div>
+
+    <section>
+        <div class="container mb-5">
+            <h3 class="text-center mb-4">Aprender idiomas nunca fue tan facil!</h3>
+            <div class="row d-fex justify-content-between">
+                <div class="col-sm-12 col-md-4 text-center">
+                    <i class="fas fa-chalkboard-teacher fa-3x mb-4"></i>
+                    <h5>Profesores calificados</h5>
+                    <p>Garantizamos tu aprendizaje con un acompañamiento continuo y de calidad.</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-4 text-center">
+                    <i class="fas fa-globe-americas fa-3x mb-4"></i>
+                    <h5>Desde cualquier lugar, las 24hs</h5>
+                    <p>En cualquier momento y lugar, siempre vas a tener un profesor disponible.</p>
+                </div>
+                
+                <div class="col-sm-12 col-md-4 text-center">
+                    <i class="far fa-comments fa-3x mb-4"></i>
+                    <h5>Conversacion y recreacion</h5>
+                    <p>Todo lo que aprendas, lo ponemos en practica en conversaciones reales con nativos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="busqueda-docentes">
+        <div class="container mb-5">
+            <h2 class="text-center">Te animas a dar tu primer paso?</h2>
+            <p class="text-center">Busquemos a tu profesor ideal!</p>
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="input-group mb-3">
+                        <select name="" id="quiero-aprender" class="form-control-lg text-secondary">
+                            <option value="" selected>Que idioma te gustaria aprender?</option>
+                            <option value="Ingles">Ingles</option>
+                            <option value="Español">Español</option>
+                            <option value="Portugues">Portugues</option>
+                            <option value="Ruso">Ruso</option>
+                            <option value="Frances">Frances</option>
+                            <option value="Chino">Chino</option>
+                            <option value="Japones">Japones</option>
+                            <option value="Arabe">Arabe</option>
+                            <option value="Turco">Turco</option>
+                            <option value="Polaco">Polaco</option>
+                            <option value="Finlandes">Finlandes</option>
+                            <option value="Sueco">Sueco</option>
+                            <option value="Coreano">Coreano</option>
+                            <option value="Guarani">Guarani</option>
+                            <option value="Italiano">Italiano</option>
+                            <option value="Catalan">Catalan</option>
+                            <option value="Aleman">Aleman</option>
+                            <option value="Holandes">Holandes</option>
+                            <option value="Griego">Griego</option>
+                            <option value="Tailandes">Tailandes</option>
+                        </select>
+                        <div class="input-group-append">
+                          <button class="btn btn-info" type="button" id="buscarProfes">Buscar profesores</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div id="lista-profesores" class="row mb-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Colapsable Ver Opiniones -->
+    <div class="container" id="cardTestimonios">
+        <div class="row mb-5 d-flex justify-content-center">
+            <div class="col-md-10 card card-body border border-info">
+                <h5 class="mb-2 text-dark text-center"><strong id="opiniones-nombre">Opiniones del profesor</strong><i class="far fa-hand-point-down ml-2"></i></h5>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                            <div class="row d-flex justify-content-start align-items-center my-3">
+                                <div class="col-sm-12 col-md-8 card card-body border p-2 mx-3">
+                                    <h6 id="op-nombre1" class="m-0">Nombre Apellido - edad</h6>
+                                    <small id="op-date1">Fecha</small>
+                                    <p id="op-coment1" class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto quas, cumque recusandae aperiam molestias fuga consectetur adipisci sed facilis!</p>
+                                </div>
+                                <i class="fas fa-user fa-6x text-info mx-2"></i>
+                            </div>
+
+                            <div class="row d-flex justify-content-end align-items-center my-3">
+                                <i class="fas fa-user fa-6x text-info mx-2"></i>
+                                <div class="col-sm-12 col-md-8 card card-body border p-2 mx-3">
+                                    <h6 id="op-nombre2" class="m-0">Nombre Apellido - edad</h6>
+                                    <small id="op-date2">Dia/Mes/Año</small>
+                                    <p id="op-coment2" class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto quas, cumque recusandae aperiam molestias fuga consectetur adipisci sed facilis!</p>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="carousel-item">
+                            <div class="row d-flex justify-content-start align-items-center my-3">
+                                <div class="col-sm-12 col-md-8 card card-body border p-2 mx-3">
+                                    <h6 id="op-nombre3" class="m-0">Nombre Apellido - edad</h6>
+                                    <small id="op-date3">Dia/Mes/Año</small>
+                                    <p id="op-coment3" class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto quas, cumque recusandae aperiam molestias fuga consectetur adipisci sed facilis!</p>
+                                </div>
+                                <i class="fas fa-user fa-6x text-info mx-2"></i>
+                            </div>
+            
+                            <div class="row d-flex justify-content-end align-items-center my-3">
+                                <i class="fas fa-user fa-6x text-info mx-2"></i>
+                                <div class="col-sm-12 col-md-8 card card-body border p-2 mx-3">
+                                    <h6 id="op-nombre4" class="m-0">Nombre Apellido - edad</h6>
+                                    <small id="op-date4" >Dia/Mes/Año</small>
+                                    <p id="op-coment4" class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto quas, cumque recusandae aperiam molestias fuga consectetur adipisci sed facilis!</p>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="carousel-item">
+                            <div class="row d-flex justify-content-start align-items-center my-3">
+                                <div class="col-sm-12 col-md-8 card card-body border p-2 mx-3">
+                                    <h6 id="op-nombre5" class="m-0">Nombre Apellido - edad</h6>
+                                    <small id="op-date5">Dia/Mes/Año</small>
+                                    <p id="op-coment5" class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto quas, cumque recusandae aperiam molestias fuga consectetur adipisci sed facilis!</p>
+                                </div>
+                                <i class="fas fa-user fa-6x text-info mx-2"></i>
+                            </div>
+            
+                            <div class="row d-flex justify-content-end align-items-center my-3">
+                                <i class="fas fa-user fa-6x text-info mx-2"></i>
+                                <div class="col-sm-12 col-md-8 card card-body border p-2 mx-3">
+                                    <h6 id="op-nombre6" class="m-0">Nombre Apellido - edad</h6>
+                                    <small id="op-date6" >Dia/Mes/Año</small>
+                                    <p id="op-coment6" class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto quas, cumque recusandae aperiam molestias fuga consectetur adipisci sed facilis!</p>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon bg-dark h1" aria-hidden="false"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon bg-dark" aria-hidden="false"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="alumnos-online">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-center mb-4">Idiomas mas demandados</h4>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div id="most-languages" class="col d-flex justify-content-between">
+                    <div>
+                        <img src="./assets/img/Ingles.png" id="usa-flag" class="lang-flag" width="100" alt="" data-toggle="tooltip" data-placement="top" title="">
+                        <h6 class="text-center mt-3">Ingles</h6>
+                    </div>
+                    <div>
+                        <img src="./assets/img/Español.png" id="esp-flag" class="lang-flag" width="100" alt="" data-toggle="tooltip" data-placement="top" title="">
+                        <h6 class="text-center mt-3">Español</h6>
+                    </div>
+                    <div>
+                        <img src="./assets/img/Italiano.png" id="ita-flag" class="lang-flag" width="100" alt="" data-toggle="tooltip" data-placement="top" title="">
+                        <h6 class="text-center mt-3">Italiano</h6>
+                    </div>
+                    <div>
+                        <img src="./assets/img/Japones.png" id="jap-flag" class="lang-flag" width="100" alt="" data-toggle="tooltip" data-placement="top" title="">
+                        <h6 class="text-center mt-3">Japones</h6>
+                    </div>
+                    <div>
+                        <img src="./assets/img/Portugues.png" id="port-flag" class="lang-flag" width="100" alt="" data-toggle="tooltip" data-placement="top" title="">
+                        <h6 class="text-center mt-3">Portugues</h6>
+                    </div>
+                    <div>
+                        <img src="./assets/img/Frances.png" id="fra-flag" class="lang-flag" width="100" alt="" data-toggle="tooltip" data-placement="top" title="">
+                        <h6 class="text-center mt-3">Frances</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mb-5">
+        <div class="container">
+            <h4 class="text-center mb-2">Solicitar un tutor privado</h4>
+            <h5 class="text-center text-secondary mb-4">Dejanos tus requisitos, y en breve te asignamos uno</h5>
+            <div class="row justify-content-center">
+                <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#solicitudModal">Enviar solicitud</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Modal Inscripcion -->
+    <div class="modal fade" id="mostrarModal" tabindex="-1" aria-labelledby="mostrarModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="mostrarModalLabel">Inscripcion</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h6>Precio total (<strong id="cantHoras">1</strong> hora(s) por semana):</h6>
+                    <div>U$S <strong id="precioTotal" class="h4"></strong><small> /mes</small></div>
+                </div>
+                <div class="d-flex mt-3">
+                    <label for="">Cuantas horas a la semana quieres cursar?</label>
+                    <input type="number" class="form-control text-center" value="1" min="1" max="6" onchange="cambiarPrecio(value)">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-primary btn-sm" onclick="alert('Te inscribiste correctamente!')">Inscribirme</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Contactar Profesor -->
+    <div class="modal fade" id="contactarProfesor" tabindex="-1" aria-labelledby="contactarProfesorLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactarProfesorLabel">Contactar al profesor</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-4" id="">
+                    <div class="col card card-body border border-white">
+                        <h6 class="mb-4"><strong>Completa los siguientes campos</strong></h6>
+                        <form action="">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <div class="input-group input-group-sm mb-1">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text bg-info" id="basic-addon1">
+                                            <i class="fas fa-user-alt fa-lg text-light text-light"></i>
+                                        </span>
+                                        </div>
+                                        <input id="form-name1" type="text" class="form-control form-control-sm" placeholder="Nombre">
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <div class="input-group input-group-sm mb-1">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text bg-info" id="basic-addon2">
+                                            <i class="fas fa-user-tie fa-lg text-light"></i>
+                                        </span>
+                                        </div>
+                                        <input id="form-lastname1" type="text" class="form-control form-control-sm" placeholder="Apellido">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="input-group input-group-sm mb-1">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text bg-info" id="basic-addon3">
+                                            <i class="fas fa-at fa-lg text-light"></i>
+                                        </span>
+                                        </div>
+                                        <input id="form-email1" type="email" class="form-control form-control-sm" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="input-group input-group-sm mb-1">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text bg-info" id="basic-addon4">
+                                            <i class="fas fa-pencil-alt fa-lg text-light"></i>
+                                        </span>
+                                        </div>
+                                        <input id="form-subject1" type="email" class="form-control form-control-sm" placeholder="Asunto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text bg-info" id="basic-addon5">
+                                            <i class="far fa-envelope fa-lg text-light"></i>
+                                        </span>
+                                        </div>
+                                        <textarea id="form-message1" cols="20" rows="5" class="form-control form-control-sm" placeholder="Escribir..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" id="sendMessage-button" class="badge badge-primary float-right mt-2 cursor-pointer">Enviar</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Solicitar Tutor Privado -->
+    <div class="modal fade" id="solicitudModal" tabindex="-1" aria-labelledby="solicitudModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="solicitudModalLabel">Dejanos tus requisitos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="formControlRange">Quiero aprender</label>
+                      <div class="input-group mb-3">
+                          <select name="" id="quiero-aprender" class="form-control-sm text-secondary">
+                              <option value="" selected>Que idioma te gustaria aprender?</option>
+                              <option value="Ingles">Ingles</option>
+                              <option value="Español">Español</option>
+                              <option value="Portugues">Portugues</option>
+                              <option value="Ruso">Ruso</option>
+                              <option value="Frances">Frances</option>
+                              <option value="Chino">Chino</option>
+                              <option value="Japones">Japones</option>
+                              <option value="Arabe">Arabe</option>
+                              <option value="Turco">Turco</option>
+                              <option value="Polaco">Polaco</option>
+                              <option value="Finlandes">Finlandes</option>
+                              <option value="Sueco">Sueco</option>
+                              <option value="Coreano">Coreano</option>
+                              <option value="Guarani">Guarani</option>
+                              <option value="Italiano">Italiano</option>
+                              <option value="Catalan">Catalan</option>
+                              <option value="Aleman">Aleman</option>
+                              <option value="Holandes">Holandes</option>
+                              <option value="Griego">Griego</option>
+                              <option value="Tailandes">Tailandes</option>
+                          </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="formControlRange">Precio <small class="text-muted">/hora</small></label>
+                      <div class="d-flex justify-content-between">
+                          <small>U$S 0.-</small>
+                          <small>U$S 50.-</small>
+                          <small>U$S 100.-</small>
+                      </div>
+                      <input type="range" class="form-control-range" id="formControlRange">
+                    </div>
+                    
+                    <div class="form-group mt-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Profesora</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Profesor</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" checked>
+                            <label class="form-check-label" for="inlineRadio3">Indistinto</label>
+                          </div>
+                    </div>
+                    
+                    <div class="form-group mt-4">
+                        <label class="d-block">Dias disponibles</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes">
+                            <label class="form-check-label" for="Lunes">Lunes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes">
+                            <label class="form-check-label" for="Martes">Martes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes">
+                            <label class="form-check-label" for="Miercoles">Miercoles</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes">
+                            <label class="form-check-label" for="Jueves">Jueves</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes">
+                            <label class="form-check-label" for="Viernes">Viernes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes">
+                            <label class="form-check-label" for="Sabado">Sabado</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" value="Lunes" checked>
+                            <label class="form-check-label" for="Sabado">Cualquier dia</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group input-group-sm mt-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text bg-primary" id="basic-addon3">
+                                <i class="fas fa-at fa-lg text-light"></i>
+                                </span>
+                            </div>
+                            <input id="form-my-email" type="email" class="form-control form-control-sm" placeholder="Email de contacto">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6 border-right d-flex justify-content-center align-items-center">
+                    <i class="fas fa-headset fa-4x mr-4"></i>
+                    <div class="align-items-center">
+                        <h5>Queres hacernos alguna consulta?</h5>
+                        <a data-toggle="collapse" href="#collapseExampleOne" aria-expanded="false" aria-controls="collapseExampleOne" class="text-decoration-none text-orangered">Comunicate con nosotros</a>
+                        o
+                        <a data-toggle="collapse" href="#collapseExampleTwo" aria-expanded="false" aria-controls="collapseExampleTwo" class="text-decoration-none text-orangered">Escribinos</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <i class="far fa-comment fa-4x mr-4"></i>
+                    <h5><a data-toggle="collapse" href="#collapseExampleThree" aria-expanded="false" aria-controls="collapseExampleThree" class="text-decoration-none text-orangered">Dejanos tu FeedBack &raquo;</a></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!--Colapsable de "Dejanos tu FeedBack"-->
+            <div class="row collapse mb-3" id="collapseExampleThree">
+                <div class="col-md-6 card card-body border border-info ml-auto">
+                    <h6 class="mb-2 text-secondary text-center"><strong>Calificanos </strong><i class="far fa-hand-point-down ml-2"></i></h6>
+                    <small id="gracias_valoracion" class="text-center text-success mb-3">
+                        <strong>Muchas gracias por tu valoracion!</strong><br>
+                        <a data-toggle="collapse" href="#collapseExampleFour" aria-expanded="false" aria-controls="collapseExampleFour" class="text-decoration-none text-info">Añadir un comentario</a>
+                    </small>
+                    <div class="d-flex justify-content-center">
+                        <form>
+                            <div class="clasificacion m-0">
+                              <input id="radio1" type="radio" name="estrellas" value="5">
+                              <label for="radio1" onclick="mostrarGracias()"><i class="fas fa-star fa-lg px-2"></i></label>
+                              <input id="radio2" type="radio" name="estrellas" value="4">
+                              <label for="radio2" onclick="mostrarGracias()"><i class="fas fa-star fa-lg px-2"></i></label>
+                              <input id="radio3" type="radio" name="estrellas" value="3">
+                              <label for="radio3" onclick="mostrarGracias()"><i class="fas fa-star fa-lg px-2"></i></label>
+                              <input id="radio4" type="radio" name="estrellas" value="2">
+                              <label for="radio4" onclick="mostrarGracias()"><i class="fas fa-star fa-lg px-2"></i></label>
+                              <input id="radio5" type="radio" name="estrellas" value="1">
+                              <label for="radio5" onclick="mostrarGracias()"><i class="fas fa-star fa-lg px-2"></i></label>
+                            </div>
+                        </form>
+                    </div>
+                    <form class="collapse" id="collapseExampleFour">
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-0 mt-3">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                    <span class="input-group-text bg-info" id="basic-addon5">
+                                        <i class="far fa-envelope fa-lg text-light"></i>
+                                    </span>
+                                    </div>
+                                    <textarea id="form-coments" cols="20" rows="5" class="form-control form-control-sm" placeholder="Escribir..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" id="coments-button" class="badge badge-primary float-right mt-2 cursor-pointer">Enviar</a>
+                    </form>
+                </div>
+            </div>
+
+            <!--Colapsable de "Contactate con nosotros"-->
+            <div class="row collapse mb-3" id="collapseExampleOne">
+                <div class="col-md-6 card card-body border border-info">
+                    <h6 class="mb-4 text-secondary"><strong>Encontranos en </strong><i class="far fa-hand-point-down ml-2"></i></h6>
+                    <div class="d-flex justify-content-around">
+                        <a href="#" id="instagram"><i class="text-info fab fa-instagram fa-2x"></i></a>
+                        <a href="#" id="facebook"><i class="text-info fab fa-facebook fa-2x"></i></a>
+                        <a href="#" id="twitter"><i class="text-info fab fa-twitter fa-2x"></i></a>
+                        <a href="#" id="whatsapp"><i class="text-info fab fa-whatsapp fa-2x"></i></a>
+                        <a href="#" id="telegram"><i class="text-info fab fa-telegram-plane fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Colapsable de "Escribinos"-->
+            <div class="row collapse mb-4" id="collapseExampleTwo">
+                <div class="col-md-6 card card-body border border-info">
+                    <h6 class="mb-4"><strong>Completa los siguientes campos</strong></h6>
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <div class="input-group input-group-sm mb-1">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text bg-info" id="basic-addon1">
+                                        <i class="fas fa-user-alt fa-lg text-light text-light"></i>
+                                      </span>
+                                    </div>
+                                    <input id="form-name" type="text" class="form-control form-control-sm" placeholder="Nombre">
+                                </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <div class="input-group input-group-sm mb-1">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text bg-info" id="basic-addon2">
+                                        <i class="fas fa-user-tie fa-lg text-light"></i>
+                                      </span>
+                                    </div>
+                                    <input id="form-lastname" type="text" class="form-control form-control-sm" placeholder="Apellido">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="input-group input-group-sm mb-1">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text bg-info" id="basic-addon3">
+                                        <i class="fas fa-at fa-lg text-light"></i>
+                                      </span>
+                                    </div>
+                                    <input id="form-email" type="email" class="form-control form-control-sm" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="input-group input-group-sm mb-1">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text bg-info" id="basic-addon4">
+                                        <i class="fas fa-pencil-alt fa-lg text-light"></i>
+                                      </span>
+                                    </div>
+                                    <input id="form-subject" type="email" class="form-control form-control-sm" placeholder="Asunto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="input-group input-group-sm">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text bg-info" id="basic-addon5">
+                                        <i class="far fa-envelope fa-lg text-light"></i>
+                                      </span>
+                                    </div>
+                                    <textarea id="form-message" cols="20" rows="5" class="form-control form-control-sm" placeholder="Escribir..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" id="sendMessage-button" class="badge badge-primary float-right mt-2 cursor-pointer">Enviar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center my-5">
+                <div class="">
+                    <span class="iconify size2em" data-icon="logos-linkedin" data-inline="false"></span>
+                </div>
+                <div>
+                    <span class="iconify size3em text-orangered" data-icon="cib-amazon-aws" data-inline="false"></span>
+                </div>
+                <div>
+                    <span class="iconify size3em" data-icon="flat-color-icons:google" data-inline="false"></span>
+                </div>
+                <div>
+                    <span class="iconify size2em" data-icon="logos-yahoo" data-inline="false"></span>
+                </div>
+                <div>
+                    <span class="iconify size3em" data-icon="ant-design:apple-filled" data-inline="false"></span>
+                </div>
+                <div>
+                    <span class="iconify size3em" data-icon="cib-cc-paypal" data-inline="false"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-info p-5">
+        <div class="container">
+            <p class="text-center lead text-white-50 d-flex align-items-center justify-content-center">
+                <i class="fas fa-american-sign-language-interpreting fa-2x mr-2"></i>
+                Same-Lang 2021
+            </p>
+        </div>
+    </footer>
+    
+    
+
+    <!--jQuery, Popper & Bootstrap JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.jumbotron {
+  height: 93vh;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff; }
+
+#jumbotron-id {
+  background: url("../img/girlstudent.jpg");
+  background-size: cover;
+  position: relative; }
+
+.card-width .card-description {
+  font-size: 0.9em; }
+
+#showTeachers, .showInfo, #ver-disponibilidad {
+  cursor: pointer; }
+
+#most-languages img:hover{
+    transform: scale(1.15); }
+
+#most-languages img {
+  transition: 0.2s; }
+
+.text-orangered {
+  color: orangered; }
+
+.size1em {
+  font-size: 1em; }
+
+.size2em {
+  font-size: 2em; }
+
+.size3em {
+  font-size: 3em; }
+
+.size4em {
+  font-size: 4em; }
+
+a i {
+  transition: 0.2s; }
+  a i:hover {
+    transform: scale(1.2); }
+
+.clasificacion {
+  direction: rtl;
+  /* right to left */
+  unicode-bidi: bidi-override;
+  /* bidi de bidireccional */
+  cursor: pointer; }
+  .clasificacion label {
+    color: gray; }
+    .clasificacion label:hover {
+      color: orange;
+      cursor: pointer; }
+      .clasificacion label:hover ~ label {
+        color: orange; }
+    .clasificacion label i {
+      margin-left: -5px;
+      margin-right: -5px;
+      cursor: pointer; }
+  .clasificacion input[type="radio"] {
+    display: none; }
+  .clasificacion input[type="radio"]:checked ~ label {
+    color: orange; }
+
+/* Popover */
+.popover {
+  border: 2px solid lightblue; }
+
+/* Popover Header */
+.popover-header {
+  background-color: lightblue;
+  color: #FFFFFF;
+  text-align: center; }
+
+/* Popover Body */
+.popover-body {
+  color: #000; }
+
+/* Popover Arrow */
+.arrow {
+  border-right-color: lightblue !important; }
+
+  #estudiantes-online{
+    font-size: 1em;
+  }
